@@ -1,0 +1,10 @@
+info:
+  owner: Accenture
+  pod: Accenture
+spring:
+  application:
+    name: micro-orch
+server:
+  port: 8076
+  servlet:
+    context-path: /microorch

@@ -1,0 +1,14 @@
+info:
+  owner: Accenture
+  pod: Accenture
+spring:
+  application:
+    name: micro-account
+  activemq:
+   broker-url: tcp://localhost:61616
+   user: admin
+   password: admin
+server:
+  port: 8078
+  servlet:
+    context-path: /microaccount

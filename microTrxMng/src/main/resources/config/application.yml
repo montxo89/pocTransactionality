@@ -1,0 +1,14 @@
+info:
+  owner: Accenture
+  pod: Accenture
+spring:
+  application:
+    name: micro-trxmng
+  activemq:
+   broker-url: tcp://localhost:61616
+   user: admin
+   password: admin
+server:
+  port: 8083
+  servlet:
+    context-path: /microtrxmng
